@@ -9,7 +9,7 @@ public class Impl {
         Reader reader = new Reader();
         Routes[] detail = reader.showDirectFlights();
 
-
+        System.out.println("chnaged in vm eclips");
         System.out.println("************************************************ ALL FLIGHTS CHART  ***************************************************");
         System.out.println(String.format("%15s %15s %25s %20s %20s", "From", "To", "Distance in Km", "Travel Time", "Typical Airfare"));
         System.out.println("-----------------------------------------------------------------------------------------------------------");
